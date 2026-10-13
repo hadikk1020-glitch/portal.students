@@ -1,0 +1,6 @@
+{
+  "name": "HADI HADI Student Portal Pro",
+  "description": "Comprehensive school and student management portal with role-based access for administrators and students, marks entry, report cards, and analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

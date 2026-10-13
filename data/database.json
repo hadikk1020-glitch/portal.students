@@ -1,0 +1,613 @@
+{
+  "users": [
+    {
+      "id": "usr-admin",
+      "username": "admin",
+      "role": "admin",
+      "passwordHash": "939a72b7ddb228f49260852cef9491058ac970a1e0892c604a92947ba42a9f5193fea07bbee3a58eda80329e05fe9664ffc249a1f66e5828f9e93cf2beef80fa",
+      "salt": "7ac85173540ddae8432e43431b8af1c7",
+      "name": "System Administrator"
+    },
+    {
+      "id": "usr-std-001",
+      "username": "Muhammad Hadi",
+      "role": "student",
+      "passwordHash": "b232b9ef893387dc2c67270f0713ea124b7a47cac4ed7b008b9dd8851dc676413129f07464d7fae8d4c0c07a269ea8c6f0c9a223c9576f1d026b5b39af85bf4f",
+      "salt": "87f475ea579acb10168c3533c53a5432",
+      "name": "Muhammad Hadi",
+      "studentId": "std-001"
+    },
+    {
+      "id": "usr-std-002",
+      "username": "Fathima Zahra",
+      "role": "student",
+      "passwordHash": "9e49fcfd86faa3fcd8e4493d0294b1875a2dc2aea4ddf07d58954df003cdd4566320ab412a6a3b28c3d240dae92a12d34b4cc26af14bf9049ebd00dd1f31323c",
+      "salt": "16ee50ba34dbe7f4cee65c3cc137ea4d",
+      "name": "Fathima Zahra",
+      "studentId": "std-002"
+    },
+    {
+      "id": "usr-std-003",
+      "username": "Rahul Krishna",
+      "role": "student",
+      "passwordHash": "aaedaf2a71efe810885d40746e063a6efd00ea55ba5d9b4ea2c8f4bf57d1ebb4e845369d739ed240b4b60b90b9754e8a98134cfc63236aa4cf0ec6fbe3cf2c68",
+      "salt": "583d9a5dd46986da755104f5686feaf6",
+      "name": "Rahul Krishna",
+      "studentId": "std-003"
+    },
+    {
+      "id": "usr-std-004",
+      "username": "Ayesha Banu",
+      "role": "student",
+      "passwordHash": "1ab5bdc764455576737529bee198425885cb20cd174833ef9a69f9a9b5d2abe8b05da86fb926885e9761d3f30e0b0f99275a61695be744ba430929ef68e842a1",
+      "salt": "7e8c77d8dbec8385b88552afa1434e04",
+      "name": "Ayesha Banu",
+      "studentId": "std-004"
+    },
+    {
+      "id": "usr-std-005",
+      "username": "Abhinav Menon",
+      "role": "student",
+      "passwordHash": "f5058f1dc0cf3d60d823ed62816bc3299b59ad3e5e958caa22a1b8d09ea89618941a571bd78d7c08a81e30455c0491ba0e15d8bc9b78abfa9e7d5d8efcd03b2d",
+      "salt": "18bb9892b0c63bfb3ad59235471aafc2",
+      "name": "Abhinav Menon",
+      "studentId": "std-005"
+    },
+    {
+      "id": "usr-std-006",
+      "username": "Sneha Varma",
+      "role": "student",
+      "passwordHash": "75340021adbf9d809f2dde0ef37fb2eb8049f1171a8af50454b2756f435fa0af1c254745d421329c131f1b8440d76277a1a827f815f3d4c348287243eee943d7",
+      "salt": "8a4a475050858b2777e9aa8fdd91219d",
+      "name": "Sneha Varma",
+      "studentId": "std-006"
+    },
+    {
+      "id": "usr-std-007",
+      "username": "Bilal Ahmed",
+      "role": "student",
+      "passwordHash": "ab30e50be1479d4a4b5e56e52147e1b44db1a1e245efe8c096986082f05c9c5669ffc021831f50cc10844fbafa11eddc6196a017122575f0ccd8448a41174b7d",
+      "salt": "f769869e0cada6d76e665fe6cde8914b",
+      "name": "Bilal Ahmed",
+      "studentId": "std-007"
+    },
+    {
+      "id": "usr-std-008",
+      "username": "Ananya Nair",
+      "role": "student",
+      "passwordHash": "941ae7ed817fc63847c3ea3aae132c8013d43cd0be100cd7b03e70c4b8fd3ff4cf2530893d382d7fe518529189ef32b37f1f5e9583c6588cd9285eeb4a96f0e5",
+      "salt": "2a645045effa6f70134c7f700b529f51",
+      "name": "Ananya Nair",
+      "studentId": "std-008"
+    },
+    {
+      "id": "usr-std-1791726665337-901",
+      "username": "Rithwik Sharma",
+      "role": "student",
+      "passwordHash": "cfdf9d64344d9bfcd04a9f5fb2f2f7ac31e8dd18ea8d5ecf6634498cd9ccdb088e5f7a21cb50da520d54b45c47b2985a99f0397f4652fff95ada4d426cb2a00d",
+      "salt": "49bcbbcf6cc7bcbe0a719879521392a9",
+      "name": "Rithwik Sharma",
+      "studentId": "std-1791726665337-901"
+    }
+  ],
+  "students": [
+    {
+      "id": "std-001",
+      "admissionNo": "HADI-2025-001",
+      "rollNo": "101",
+      "fullName": "Muhammad Hadi",
+      "fatherName": "Musthafa Kamal",
+      "motherName": "Amina Beegum",
+      "dob": "2009-04-14",
+      "gender": "Male",
+      "address": "Hadi Villa, Green Valley Road, Calicut, Kerala",
+      "studentPhone": "9847123456",
+      "parentPhone": "9847012345",
+      "className": "Class 10",
+      "division": "A",
+      "academicYear": "2025-2026",
+      "admissionDate": "2025-06-01",
+      "createdAt": "2025-06-01T09:00:00Z",
+      "updatedAt": "2025-06-01T09:00:00Z"
+    },
+    {
+      "id": "std-002",
+      "admissionNo": "HADI-2025-002",
+      "rollNo": "102",
+      "fullName": "Fathima Zahra",
+      "fatherName": "Ibrahim Kutty",
+      "motherName": "Suhaiba Rahman",
+      "dob": "2009-08-22",
+      "gender": "Female",
+      "address": "Zahra Manzil, Beach Road, Kozhikode, Kerala",
+      "studentPhone": "9447234567",
+      "parentPhone": "9447123456",
+      "className": "Class 10",
+      "division": "A",
+      "academicYear": "2025-2026",
+      "admissionDate": "2025-06-01",
+      "createdAt": "2025-06-01T09:15:00Z",
+      "updatedAt": "2025-06-01T09:15:00Z"
+    },
+    {
+      "id": "std-003",
+      "admissionNo": "HADI-2025-003",
+      "rollNo": "103",
+      "fullName": "Rahul Krishna",
+      "fatherName": "Radhakrishnan Nair",
+      "motherName": "Bindu R",
+      "dob": "2009-02-10",
+      "gender": "Male",
+      "address": "Krishna Kripa, Stadium Bypass, Palakkad, Kerala",
+      "studentPhone": "9746345678",
+      "parentPhone": "9746234567",
+      "className": "Class 10",
+      "division": "A",
+      "academicYear": "2025-2026",
+      "admissionDate": "2025-06-02",
+      "createdAt": "2025-06-02T10:00:00Z",
+      "updatedAt": "2025-06-02T10:00:00Z"
+    },
+    {
+      "id": "std-004",
+      "admissionNo": "HADI-2025-004",
+      "rollNo": "104",
+      "fullName": "Ayesha Banu",
+      "fatherName": "Anwar Sadath",
+      "motherName": "Ruksana K",
+      "dob": "2009-11-05",
+      "gender": "Female",
+      "address": "Garden View, Hill Highway, Wayanad, Kerala",
+      "studentPhone": "9895456789",
+      "parentPhone": "9895345678",
+      "className": "Class 10",
+      "division": "A",
+      "academicYear": "2025-2026",
+      "admissionDate": "2025-06-02",
+      "createdAt": "2025-06-02T10:30:00Z",
+      "updatedAt": "2025-06-02T10:30:00Z"
+    },
+    {
+      "id": "std-005",
+      "admissionNo": "HADI-2025-005",
+      "rollNo": "105",
+      "fullName": "Abhinav Menon",
+      "fatherName": "Girish Menon",
+      "motherName": "Deepa Menon",
+      "dob": "2009-05-18",
+      "gender": "Male",
+      "address": "Menon Estate, Karaparamba, Kozhikode, Kerala",
+      "studentPhone": "9633567890",
+      "parentPhone": "9633456789",
+      "className": "Class 10",
+      "division": "A",
+      "academicYear": "2025-2026",
+      "admissionDate": "2025-06-03",
+      "createdAt": "2025-06-03T11:00:00Z",
+      "updatedAt": "2025-06-03T11:00:00Z"
+    },
+    {
+      "id": "std-006",
+      "admissionNo": "HADI-2025-006",
+      "rollNo": "106",
+      "fullName": "Sneha Varma",
+      "fatherName": "Dr. Ravi Varma",
+      "motherName": "Parvathi Devi",
+      "dob": "2009-09-30",
+      "gender": "Female",
+      "address": "Kovilage, West Hill, Calicut, Kerala",
+      "studentPhone": "9496678901",
+      "parentPhone": "9496567890",
+      "className": "Class 10",
+      "division": "B",
+      "academicYear": "2025-2026",
+      "admissionDate": "2025-06-04",
+      "createdAt": "2025-06-04T09:30:00Z",
+      "updatedAt": "2025-06-04T09:30:00Z"
+    },
+    {
+      "id": "std-007",
+      "admissionNo": "HADI-2025-007",
+      "rollNo": "107",
+      "fullName": "Bilal Ahmed",
+      "fatherName": "Sayed Ahmed",
+      "motherName": "Naseema K",
+      "dob": "2009-12-12",
+      "gender": "Male",
+      "address": "Al-Huda House, Feroke, Kozhikode, Kerala",
+      "studentPhone": "9846789012",
+      "parentPhone": "9846678901",
+      "className": "Class 10",
+      "division": "B",
+      "academicYear": "2025-2026",
+      "admissionDate": "2025-06-04",
+      "createdAt": "2025-06-04T10:15:00Z",
+      "updatedAt": "2025-06-04T10:15:00Z"
+    },
+    {
+      "id": "std-008",
+      "admissionNo": "HADI-2025-008",
+      "rollNo": "201",
+      "fullName": "Ananya Nair",
+      "fatherName": "Sreekumar Nair",
+      "motherName": "Geetha Kumari",
+      "dob": "2010-03-25",
+      "gender": "Female",
+      "address": "Prasanthi, Medical College PO, Kozhikode, Kerala",
+      "studentPhone": "9567890123",
+      "parentPhone": "9567789012",
+      "className": "Class 9",
+      "division": "A",
+      "academicYear": "2025-2026",
+      "admissionDate": "2025-06-05",
+      "createdAt": "2025-06-05T09:00:00Z",
+      "updatedAt": "2025-06-05T09:00:00Z"
+    },
+    {
+      "fullName": "Rithwik Sharma",
+      "fatherName": "Anand Sharma",
+      "motherName": "Pooja Sharma",
+      "dob": "2009-07-15",
+      "gender": "Male",
+      "address": "Calicut",
+      "studentPhone": "9847111222",
+      "parentPhone": "9847333444",
+      "admissionNo": "HADI-2025-099",
+      "rollNo": "109",
+      "className": "Class 10",
+      "division": "A",
+      "academicYear": "2025-2026",
+      "admissionDate": "2025-06-01",
+      "id": "std-1791726665337-901",
+      "createdAt": "2026-10-11T13:51:05.337Z",
+      "updatedAt": "2026-10-11T13:51:05.337Z"
+    }
+  ],
+  "classes": [
+    {
+      "id": "cls-10a",
+      "name": "Class 10",
+      "division": "A",
+      "classTeacher": "Mr. Abdul Rahman",
+      "academicYear": "2025-2026"
+    },
+    {
+      "id": "cls-10b",
+      "name": "Class 10",
+      "division": "B",
+      "classTeacher": "Mrs. Jayalakshmi K",
+      "academicYear": "2025-2026"
+    },
+    {
+      "id": "cls-9a",
+      "name": "Class 9",
+      "division": "A",
+      "classTeacher": "Mr. Vinod Kumar",
+      "academicYear": "2025-2026"
+    },
+    {
+      "id": "cls-8a",
+      "name": "Class 8",
+      "division": "A",
+      "classTeacher": "Ms. Safiya Banu",
+      "academicYear": "2025-2026"
+    },
+    {
+      "id": "cls-12a",
+      "name": "Class 12",
+      "division": "A",
+      "classTeacher": "Dr. Suresh Babu",
+      "academicYear": "2025-2026"
+    }
+  ],
+  "exams": [
+    {
+      "id": "ex-001",
+      "name": "First Term Examination 2025",
+      "academicYear": "2025-2026",
+      "className": "Class 10",
+      "division": "A",
+      "examDate": "2025-09-15",
+      "subjects": [
+        {
+          "id": "sub-eng",
+          "name": "English Language",
+          "maxMarks": 100,
+          "passMarks": 40
+        },
+        {
+          "id": "sub-math",
+          "name": "Mathematics",
+          "maxMarks": 100,
+          "passMarks": 40
+        },
+        {
+          "id": "sub-sci",
+          "name": "General Science",
+          "maxMarks": 100,
+          "passMarks": 40
+        },
+        {
+          "id": "sub-soc",
+          "name": "Social Studies",
+          "maxMarks": 100,
+          "passMarks": 40
+        },
+        {
+          "id": "sub-mal",
+          "name": "Malayalam / Second Lang",
+          "maxMarks": 100,
+          "passMarks": 40
+        },
+        {
+          "id": "sub-it",
+          "name": "Computer Science & IT",
+          "maxMarks": 100,
+          "passMarks": 40
+        }
+      ],
+      "status": "completed",
+      "createdAt": "2025-09-01T08:00:00Z"
+    },
+    {
+      "id": "ex-002",
+      "name": "Mid Term Assessment 2025",
+      "academicYear": "2025-2026",
+      "className": "Class 10",
+      "division": "A",
+      "examDate": "2025-11-20",
+      "subjects": [
+        {
+          "id": "sub-eng",
+          "name": "English Language",
+          "maxMarks": 100,
+          "passMarks": 40
+        },
+        {
+          "id": "sub-math",
+          "name": "Mathematics",
+          "maxMarks": 100,
+          "passMarks": 40
+        },
+        {
+          "id": "sub-sci",
+          "name": "General Science",
+          "maxMarks": 100,
+          "passMarks": 40
+        },
+        {
+          "id": "sub-soc",
+          "name": "Social Studies",
+          "maxMarks": 100,
+          "passMarks": 40
+        },
+        {
+          "id": "sub-mal",
+          "name": "Malayalam / Second Lang",
+          "maxMarks": 100,
+          "passMarks": 40
+        },
+        {
+          "id": "sub-it",
+          "name": "Computer Science & IT",
+          "maxMarks": 100,
+          "passMarks": 40
+        }
+      ],
+      "status": "completed",
+      "createdAt": "2025-11-01T08:00:00Z"
+    },
+    {
+      "id": "ex-003",
+      "name": "Annual Model Exam 2026",
+      "academicYear": "2025-2026",
+      "className": "Class 10",
+      "division": "A",
+      "examDate": "2026-02-10",
+      "subjects": [
+        {
+          "id": "sub-eng",
+          "name": "English Language",
+          "maxMarks": 100,
+          "passMarks": 40
+        },
+        {
+          "id": "sub-math",
+          "name": "Mathematics",
+          "maxMarks": 100,
+          "passMarks": 40
+        },
+        {
+          "id": "sub-sci",
+          "name": "General Science",
+          "maxMarks": 100,
+          "passMarks": 40
+        },
+        {
+          "id": "sub-soc",
+          "name": "Social Studies",
+          "maxMarks": 100,
+          "passMarks": 40
+        },
+        {
+          "id": "sub-mal",
+          "name": "Malayalam / Second Lang",
+          "maxMarks": 100,
+          "passMarks": 40
+        },
+        {
+          "id": "sub-it",
+          "name": "Computer Science & IT",
+          "maxMarks": 100,
+          "passMarks": 40
+        }
+      ],
+      "status": "published",
+      "createdAt": "2026-02-01T08:00:00Z"
+    }
+  ],
+  "marks": [
+    {
+      "id": "mrk-ex1-std-001",
+      "examId": "ex-001",
+      "studentId": "std-001",
+      "admissionNo": "HADI-2025-001",
+      "studentName": "Muhammad Hadi",
+      "rollNo": "101",
+      "className": "Class 10",
+      "division": "A",
+      "marks": {
+        "sub-eng": 100,
+        "sub-math": 100,
+        "sub-sci": 100,
+        "sub-soc": 100,
+        "sub-mal": 100,
+        "sub-it": 100
+      },
+      "totalMarks": 600,
+      "maxTotalMarks": 600,
+      "percentage": 100,
+      "grade": "A+",
+      "passFail": "PASS",
+      "remarks": "",
+      "updatedAt": "2026-10-11T13:52:01.851Z",
+      "rank": 1
+    },
+    {
+      "id": "mrk-ex1-std-002",
+      "examId": "ex-001",
+      "studentId": "std-002",
+      "admissionNo": "HADI-2025-002",
+      "studentName": "Fathima Zahra",
+      "rollNo": "102",
+      "className": "Class 10",
+      "division": "A",
+      "marks": {
+        "sub-eng": 96,
+        "sub-math": 95,
+        "sub-sci": 94,
+        "sub-soc": 95,
+        "sub-mal": 98,
+        "sub-it": 96
+      },
+      "totalMarks": 574,
+      "maxTotalMarks": 600,
+      "percentage": 95.7,
+      "grade": "A+",
+      "passFail": "PASS",
+      "remarks": "",
+      "updatedAt": "2026-10-11T13:51:42.934Z",
+      "rank": 2
+    },
+    {
+      "id": "mrk-ex1-std-003",
+      "examId": "ex-001",
+      "studentId": "std-003",
+      "admissionNo": "HADI-2025-003",
+      "studentName": "Rahul Krishna",
+      "rollNo": "103",
+      "className": "Class 10",
+      "division": "A",
+      "marks": {
+        "sub-eng": 88,
+        "sub-math": 92,
+        "sub-sci": 90,
+        "sub-soc": 85,
+        "sub-mal": 89,
+        "sub-it": 94
+      },
+      "totalMarks": 538,
+      "maxTotalMarks": 600,
+      "percentage": 89.7,
+      "grade": "A",
+      "passFail": "PASS",
+      "remarks": "",
+      "updatedAt": "2026-10-11T13:51:42.934Z",
+      "rank": 3
+    },
+    {
+      "id": "mrk-ex1-std-004",
+      "examId": "ex-001",
+      "studentId": "std-004",
+      "admissionNo": "HADI-2025-004",
+      "studentName": "Ayesha Banu",
+      "rollNo": "104",
+      "className": "Class 10",
+      "division": "A",
+      "marks": {
+        "sub-eng": 85,
+        "sub-math": 78,
+        "sub-sci": 82,
+        "sub-soc": 80,
+        "sub-mal": 88,
+        "sub-it": 89
+      },
+      "totalMarks": 502,
+      "maxTotalMarks": 600,
+      "percentage": 83.7,
+      "grade": "A",
+      "passFail": "PASS",
+      "remarks": "",
+      "updatedAt": "2026-10-11T13:51:42.935Z",
+      "rank": 4
+    },
+    {
+      "id": "mrk-ex1-std-005",
+      "examId": "ex-001",
+      "studentId": "std-005",
+      "admissionNo": "HADI-2025-005",
+      "studentName": "Abhinav Menon",
+      "rollNo": "105",
+      "className": "Class 10",
+      "division": "A",
+      "marks": {
+        "sub-eng": 76,
+        "sub-math": 72,
+        "sub-sci": 70,
+        "sub-soc": 68,
+        "sub-mal": 75,
+        "sub-it": 80
+      },
+      "totalMarks": 441,
+      "maxTotalMarks": 600,
+      "percentage": 73.5,
+      "grade": "B+",
+      "passFail": "PASS",
+      "remarks": "",
+      "updatedAt": "2026-10-11T13:51:42.935Z",
+      "rank": 5
+    },
+    {
+      "id": "mrk-ex-001-std-1791726665337-901",
+      "examId": "ex-001",
+      "studentId": "std-1791726665337-901",
+      "admissionNo": "HADI-2025-099",
+      "studentName": "Rithwik Sharma",
+      "rollNo": "109",
+      "className": "Class 10",
+      "division": "A",
+      "marks": {
+        "sub-eng": 0,
+        "sub-math": 0,
+        "sub-sci": 0,
+        "sub-soc": 0,
+        "sub-mal": 0,
+        "sub-it": 0
+      },
+      "totalMarks": 0,
+      "maxTotalMarks": 600,
+      "percentage": 0,
+      "grade": "F",
+      "passFail": "FAIL",
+      "remarks": "",
+      "updatedAt": "2026-10-11T13:51:42.935Z"
+    }
+  ],
+  "settings": {
+    "schoolName": "HADI HADI ACADEMY & HIGHER SECONDARY SCHOOL",
+    "schoolTagline": "Empowering Minds, Inspiring Excellence",
+    "schoolAddress": "Knowledge City, Wayanad Road, Calicut, Kerala 673571",
+    "schoolCode": "KL-CC-2025",
+    "currentAcademicYear": "2025-2026"
+  }
+}
